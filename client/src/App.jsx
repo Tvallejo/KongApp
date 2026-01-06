@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
-// Use environment variable in production, fallback to localhost for development
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
+// Use environment variable in production, fallback to Render backend
+const API_URL = import.meta.env.VITE_API_URL || 'https://kong-api-e6wc.onrender.com/api'
+
 
 
 // Estilos inline para evitar dependencias externas
