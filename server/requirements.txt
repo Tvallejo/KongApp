@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+pandas
+gspread
+gspread-dataframe
+openpyxl
+pydantic
+python-multipart
